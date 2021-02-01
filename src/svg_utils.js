@@ -12,6 +12,8 @@ export function createSVG(tag, attrs) {
             parent.appendChild(elem);
         } else if (attr === 'innerHTML') {
             elem.innerHTML = attrs.innerHTML;
+        } else if (attr === 'color') {
+            elem.setAttribute('fill', attrs.color);
         } else {
             elem.setAttribute(attr, attrs[attr]);
         }

@@ -54,7 +54,7 @@ $handle-color: #ddd !default;
 		user-select: none;
 	}
 	.bar-progress {
-		fill: $blue;
+		fill: inherit;
 	}
 	.bar-invalid {
 		fill: transparent;

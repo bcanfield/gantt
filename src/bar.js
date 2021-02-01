@@ -36,7 +36,8 @@ export default class Bar {
                 (this.task.progress / 100) || 0;
         this.group = createSVG('g', {
             class: 'bar-wrapper ' + (this.task.custom_class || ''),
-            'data-id': this.task.id
+            'data-id': this.task.id,
+            'color': this.task.color,
         });
         this.bar_group = createSVG('g', {
             class: 'bar-group',
