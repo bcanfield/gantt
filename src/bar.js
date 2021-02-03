@@ -381,7 +381,7 @@ export default class Bar {
             label.setAttribute('x', bar.getX() + bar.getWidth() + 5);
         } else {
             label.classList.remove('big');
-            label.setAttribute('x', bar.getX() + (label.getBBox().width / 2) + 5);
+            label.setAttribute('x', bar.getX() + (label.getBBox().width / 2) + 12);
         }
     }
 

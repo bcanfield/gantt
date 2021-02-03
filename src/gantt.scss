@@ -94,11 +94,11 @@ $handle-color: #ddd !default;
 
 		&:hover {
 			.bar {
-				fill: darken($bar-color, 5);
+				fill: #DAE0E6;
 			}
 
 			.bar-progress {
-				fill: darken($blue, 5);
+				fill: #DAE0E6;
 			}
 
 			.handle {
@@ -109,11 +109,11 @@ $handle-color: #ddd !default;
 
 		&.active {
 			.bar {
-				fill: darken($bar-color, 5);
+				fill: #DAE0E6;
 			}
 
 			.bar-progress {
-				fill: darken($blue, 5);
+				fill: #DAE0E6;
 			}
 		}
 	}
