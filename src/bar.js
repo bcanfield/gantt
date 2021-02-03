@@ -111,7 +111,7 @@ export default class Bar {
 
     draw_label() {
         createSVG('text', {
-            x: this.x + this.width / 2,
+            x: this.x + this.width,
             y: this.y + this.height / 2,
             innerHTML: this.task.name,
             class: 'bar-label',
@@ -381,7 +381,7 @@ export default class Bar {
             label.setAttribute('x', bar.getX() + bar.getWidth() + 5);
         } else {
             label.classList.remove('big');
-            label.setAttribute('x', bar.getX() + bar.getWidth() / 2);
+            label.setAttribute('x', bar.getX() + (label.getBBox().width / 2) + 5);
         }
     }
 
